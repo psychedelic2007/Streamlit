@@ -68,7 +68,7 @@ st.write('The GC content of the query sequence is ', gc_content)
 
 nuc_frequency = Counter(sequence)
 plt.figure(figsize=(18,10))
-plt.plot(nuc_frequency.keys(), nuc_frequency.values(), color='green', linewidth=2.0, edgecolor='black')
+plt.plot(nuc_frequency.keys(), nuc_frequency.values(), color='green', linewidth=2.0)
 plt.xlabel("Nucleotide Bases", fontsize=20)
 plt.ylabel("Frequency", fontsize=20)
 plt.xticks(fontsize=15)
